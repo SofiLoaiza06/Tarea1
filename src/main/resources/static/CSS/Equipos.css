@@ -1,0 +1,29 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 5 jun. 2022, 23:46:50
+    Author     : bquir
+*/
+
+div.teams{
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.teams:hover {
+  border: 1px solid #777;
+}
+
+div.teams img {
+  width: 100%;
+  height: auto;
+}
+
+div.teams {
+  padding: 15px;
+  text-align: center;
+}

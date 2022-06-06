@@ -16,7 +16,6 @@ and open the template in the editor.
 .container{
     height:100vh;
     width:100%;
-    background-image: url(../images/background.png);
     background-position:center;
     background-size: cover;
     padding-left: 0%;
@@ -33,7 +32,7 @@ and open the template in the editor.
     display: flex;
     align-items: center;
     border: 6px solid red;
-   
+    background-color: black; 
     
 }
 
@@ -44,20 +43,21 @@ and open the template in the editor.
 
 nav{
     flex: 1;
-    padding: 60px;
+    padding: 50px;
 }
 
 nav ul li{
     display: inline-block;
     list-style: none;
-    margin: 0px 20px;
+    margin: 0px 30px;
     
 }
 
 nav ul li a{
     text-decoration: none;
-    color: black;
-    font-size:x-large;
+    color: whitesmoke;
+    font-family: impact;
+    font-size: 160%;
     
 }
 

@@ -1,0 +1,53 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 5 jun. 2022, 22:29:22
+    Author     : bquir
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+.titulo {
+    text-align: center;
+    color: black;
+    font-family: Comic;
+}
+
+#tabla {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    border-collapse: separate;
+    width: 100%;
+}
+
+#tabla td, .tabla th {
+    border: 1px solid #ddd;
+    padding: 191px;
+    font-size: 24px;
+}
+
+.tabla tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+.tabla tr:hover {
+    background-color: #ddd;
+}
+
+.tabla th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: red;
+    color: white;
+
+}
+.tabla {
+
+}
