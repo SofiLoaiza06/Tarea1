@@ -25,6 +25,10 @@ and open the template in the editor.
     
 }
 
+body{
+     background-image: url('MercedesBack.jpg');
+}
+
 .navbar{
     height:15vh;
     width: 99%;
